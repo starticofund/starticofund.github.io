@@ -1,2 +1,1 @@
-# starticofund.github.io
-Start ICO Fund 
+"# starticofund.github.io" 
