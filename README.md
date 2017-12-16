@@ -1,1 +1,0 @@
-"# starticofund.github.io" 
