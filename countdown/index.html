@@ -13,9 +13,17 @@
 <script>
 $(function () {
 	var austDay = new Date();
-	austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
-	$('#defaultCountdown').countdown({until: austDay});
+	austDay = new Date(austDay.getFullYear() , 12 - 1, 28);
+	//$('#defaultCountdown').countdown({until: austDay});
+	//$('#defaultCountdown').countdown({until: $.countdown.UTCDate(-8, austDay)});
+	$('#defaultCountdown').countdown({until: $.countdown.UTCDate(-480, 2017, 12 -1, 28, 0, 0 -1, 0, 0)});
 	$('#year').text(austDay.getFullYear());
+
+
+	//$('#defaultCountdown').countdown({until: $.countdown.UTCDate(-8, austDay)});
+	//$(selector).countdown({     until: $.countdown.UTCDate(-8, liftoffTime)});
+	//$(selector).countdown({until:  $.countdown.UTCDate(-480, 2017, 12-1, 28, 11, 30, 0, 0)});
+
 });
 </script>
 </head>

@@ -127,7 +127,7 @@ FundCru aims to use its business model and blockchain technology to provide fund
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<h3>ICO Company</h3>
+											<h3>BELUGAPAY</h3>
 											<p>Business Description and ICO White Paper </p>
 											<ul class="actions">
 												<li><a href="#" class="button">More</a></li>
@@ -304,15 +304,27 @@ FundCru aims to use its business model and blockchain technology to provide fund
 
 			<script>
 			$(function () {
+
+				/*
 				var austDay = new Date();
 				austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);   // 2018-01-26
 				$('#defaultCountdown').countdown({until: austDay});
 
 				var fundCruDay = new Date();
-				    fundCruDay = new Date(fundCruDay.getFullYear() + 1, 1 - 1, 08);   // 2018-01-26
+				    fundCruDay = new Date(fundCruDay.getFullYear() , 1 - 1, 30);   // 2017-12-30
 				$('#FundCruCountdown').countdown({until: fundCruDay});
-				
-			//	$('#year').text(austDay.getFullYear());
+				*/
+			
+
+				// 2017-12-28 
+				$('#defaultCountdown').countdown({until: $.countdown.UTCDate(-480, 2017, 12 -1, 28, 0, 0 -1, 0, 0)});
+
+				//
+				$('#FundCruCountdown').countdown({until: $.countdown.UTCDate(-480, 2018, 1 -1, 5, 5, 0 , 0, 0)});
+
+
+
+
 			});
 			</script>
 
