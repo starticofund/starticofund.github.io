@@ -15,6 +15,9 @@
 
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+
+
 	</head>
 	<body>
 
@@ -235,6 +238,16 @@
 
 
 			<script>
+
+
+			$(document).ready(function(){
+				$("a[href^='http']").attr('target','_blank');		// href popup
+			});
+
+
+
+
+
 			$(function () {
 
 				/*
